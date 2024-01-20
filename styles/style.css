@@ -1,0 +1,137 @@
+*{
+    font-family: mulish;
+    
+}
+.nav-container{
+
+    min-height: 20px;
+    width: 50%;
+
+    display: flex inline;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+.nav-container img {
+    width: 70px;
+    height:50px;
+}
+.special{
+    color: #FF5400;
+}
+.nav-bar{
+    max-width: 1250px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    
+}
+.item-container{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-size: 18px;
+    font-weight: 400;
+}
+.item-container a{
+
+    text-decoration: none;
+}
+.home{
+    color: #FF5400;
+}
+
+
+.banner{
+    max-width: 1250px;
+    margin: 0 auto;
+    height: 600px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 16px;
+    overflow: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+   background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+   background-repeat: no-repeat;
+  
+   }
+.banner-heading{
+    color: #FFF;
+font-size: 60px;
+font-weight: 800;   
+margin-top: 70px;
+margin-bottom: 20px;
+
+}
+.banner-pg{
+    width: 500px;
+    color: #FFF;
+    margin-top: 0%;
+    font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+}
+.input-container{
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
+.input{
+    text-align: left;
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+border: none;
+color: rgba(19, 19, 24, 0.50);
+padding-left: 20px;
+font-size: 16px;
+font-weight: 400;
+}
+.banner-button{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+
+}
+.arrow{
+    
+}
+
+
+
+@media screen and (max-width:576px) {
+    .nav-bar{
+        flex-direction: column;
+        margin-left: 0px;
+       } 
+       .item-container{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+       }
+       .input-container{
+        flex-direction: column;
+       }
+       .banner-heading{
+        font-size: 35px;
+        margin-top: 20px;
+       }
+       .banner-pg{
+        width: 400px;
+       }
+    
+        .nav-container {
+            width: 100%;
+            justify-content: center;
+        }   
