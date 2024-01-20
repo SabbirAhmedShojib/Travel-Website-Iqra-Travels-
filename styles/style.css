@@ -178,3 +178,14 @@ line-height: 26px; /* 162.5% */
             margin-top: 30px;
         }
     }
+    .popular-tours{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .popular-tours-content{
+        margin-left: 20px;
+    }
+    .popular-tours-image{
+        margin-top: 30px;
+        margin-left: 0%;
+    }
