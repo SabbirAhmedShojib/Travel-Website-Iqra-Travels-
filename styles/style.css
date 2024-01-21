@@ -144,11 +144,26 @@ line-height: 26px; /* 162.5% */
     width: 50%;
 }
 .destination{
-    max-width: 1250px;
+    max-width: 1200px;
     margin: 0 auto;
    margin-top: 100px;
    position: relative;
-   translate: 30px;
+   translate: 30px;   
+}
+.destination h1{
+    text-align: center;
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.destination p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    margin-left: 280px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
 }
 .mal-ind{
    display: flex;
@@ -156,8 +171,6 @@ line-height: 26px; /* 162.5% */
    flex-wrap: wrap;
    gap: 20px;
    text-align: center;
-   
-    
 }
 .maldives{
     border-radius: 16px;
@@ -165,11 +178,10 @@ line-height: 26px; /* 162.5% */
     background-repeat: no-repeat;
     width: 573px;
     height: 300px;
-    justify-content: center;
-    align-items: center;
     color: #FFF;
 font-size: 28px;
 font-weight: 800;
+
 
 }
 .indonesia{
@@ -178,8 +190,6 @@ font-weight: 800;
     background-repeat: no-repeat;
     height: 300px;
     width: 573px;
-    justify-content: center;
-    align-items: center;
     color: #FFF;
 font-size: 28px;
 font-weight: 800;
@@ -190,8 +200,6 @@ font-weight: 800;
     background-repeat: no-repeat;
     height: 286px;
     width: 374px;
-    justify-content: center;
-    align-items: center;
     color: #FFF;
 font-size: 28px;
 font-weight: 800;
@@ -202,8 +210,6 @@ font-weight: 800;
     background-repeat: no-repeat;
     height: 286px;
     width: 474px;
-    justify-content: center;
-    align-items: center;
     color: #FFF;
 font-size: 28px;
 font-weight: 800;
@@ -214,13 +220,30 @@ font-weight: 800;
     background-repeat: no-repeat;
     height: 286px;
     width: 274px;
-    justify-content: center;
-    align-items: center;
     color: #FFF;
 font-size: 28px;
 font-weight: 800;
 }
-
+.bangladesh{
+    border-radius: 16px;
+    background-image: url(../Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    height: 286px;
+    width: 473px;
+    color: #FFF;
+font-size: 28px;
+font-weight: 800;
+}
+.bandarban{
+    border-radius: 16px;
+    background-image: url(../Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    height: 286px;
+    width: 673px;
+    color: #FFF;
+font-size: 28px;
+font-weight: 800;
+}
 @media screen and (max-width:576px) {
     .nav-bar{
         flex-direction: column;
@@ -272,5 +295,8 @@ font-weight: 800;
     .popular-tours-image{
         margin-top: 30px;
         margin-left: 0%;
+    }
+    .srilanka{
+        width: 573px;
     }
 }
