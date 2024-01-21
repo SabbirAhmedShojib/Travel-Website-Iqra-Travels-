@@ -143,9 +143,27 @@ line-height: 26px; /* 162.5% */
     margin-left: 100px ;
     width: 50%;
 }
+.destination{
+    max-width: 1250px;
+    margin: 0 auto;
+   margin-top: 100px;
+   position: relative;
+   translate: 30px;
+}
+.mal-ind{
+   display: flex;
+   flex-shrink: 0;
+   flex-wrap: wrap;
+   gap: 20px;
+   text-align: center;
+   
+    
+}
 .maldives{
+    border-radius: 16px;
     background-image: url(../Images/Rectangle\ 5.png);
     background-repeat: no-repeat;
+    width: 573px;
     height: 300px;
     justify-content: center;
     align-items: center;
@@ -155,9 +173,47 @@ font-weight: 800;
 
 }
 .indonesia{
+    border-radius: 16px;
     background-image: url(../Images/Rectangle\ 8.png);
     background-repeat: no-repeat;
     height: 300px;
+    width: 573px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+font-size: 28px;
+font-weight: 800;
+}
+.srilanka{
+    border-radius: 16px;
+    background-image: url(../Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    height: 286px;
+    width: 374px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+font-size: 28px;
+font-weight: 800;
+}
+.north-america{
+    border-radius: 16px;
+    background-image: url(../Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    height: 286px;
+    width: 474px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+font-size: 28px;
+font-weight: 800;
+}
+.kashmir{
+    border-radius: 16px;
+    background-image: url(../Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    height: 286px;
+    width: 274px;
     justify-content: center;
     align-items: center;
     color: #FFF;
