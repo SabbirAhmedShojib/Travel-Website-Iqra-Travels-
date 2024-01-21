@@ -296,7 +296,30 @@ font-weight: 800;
         margin-top: 30px;
         margin-left: 0%;
     }
+
     .srilanka{
         width: 573px;
+        background-size: 573px;
+    }
+    .north-america{
+        width: 573px;
+        background-size: 573px;
+    }
+    .kashmir{
+        width: 573px;
+        background-size: 573px;
+        background-position: center;
+    }
+    .bangladesh{
+        width: 573px;
+        background-size: 573px;
+    }
+    .destination {
+        translate: 0px;
+    }
+    .destination p {
+        margin: 0 auto;
+        width: 500px;
+        margin-bottom: 48px;
     }
 }
