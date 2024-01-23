@@ -481,7 +481,7 @@
     font-weight: 800;
     font-size: 20px;
     position: relative;
-    translate: 500px 0px;
+    translate: 480px 0px;
 }
 
 .section-4-div-1 {
@@ -520,6 +520,106 @@
     margin-top: 50px;
     display: flex;
     gap: 50px;
+
+}
+
+.section-5 {
+
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    gap: 30px;
+}
+
+.section-5-div-1 {
+    margin-top: 100px;
+    width: 474px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.section-5-div-1-container {
+    width: 350px;
+    margin-left: 50px;
+}
+
+.section-5-div-1-container hr {
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    border-style: none;
+}
+
+.section-5-div-1 h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.section-5-div-1 p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.section-5-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-5-input input {
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 30px;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border-style: none;
+}
+
+.section-5-button {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-left: 30px;
+    border-style: none;
+
+}
+
+.section-5-div-2 {
+    margin-top: 100px;
+    width: 474px;
+    height: 422px;
+}
+
+.section-5-div-2 button {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    border-style: none;
+    position: relative;
+    translate: 335px -175px;
 }
 
 @media screen and (max-width:576px) {
@@ -680,5 +780,30 @@
 
     .section-4-div-container {
         flex-direction: column;
+    }
+
+    .section-5 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-5 img {
+        width: 573px;
+    }
+
+    .section-5-div-1 {
+        width: 573px;
+        margin-top: 50px;
+    }
+
+    .section-5-div-1-container {
+        margin-left: 100px;
+    }
+
+    .section-5-div-2 {
+        margin-top: 50px;
+    }
+    .section-5-div-2 button {
+        translate: 240px -175px;
     }
 }
